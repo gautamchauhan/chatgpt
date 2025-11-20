@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=ChatGPT Desktop
+Comment=ChatGPT desktop application for Linux
+Exec=chatgpt-desktop
+Icon=chatgpt-desktop
+Terminal=false
+Type=Application
+Categories=Network;Chat;
+StartupWMClass=ChatGPT Desktop

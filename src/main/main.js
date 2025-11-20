@@ -188,6 +188,7 @@ Node.js: ${process.versions.node}`;
 }
 
 app.whenReady().then(() => {
+  app.setName('ChatGPT Desktop');
   createWindow();
 
   app.on('activate', () => {
