@@ -56,7 +56,7 @@
 - [ ] Create AppImage configuration
 
 ### Step 8: Testing & Bug Fixes
-- [ ] Test on Ubuntu 24.10
+- [ ] Test on Ubuntu 25.10
 - [ ] Verify chatgpt.com loads correctly
 - [ ] Test authentication flow
 - [ ] Test session persistence
@@ -74,7 +74,7 @@
 ### Step 10: First Release
 - [ ] Build .deb package
 - [ ] Build AppImage
-- [ ] Test installation on clean Ubuntu 24.10
+- [ ] Test installation on clean Ubuntu 25.10
 - [ ] Create GitHub release v1.0.0
 - [ ] Upload binaries
 
@@ -235,7 +235,7 @@ linux:
    - Commit with clear message
 
 2. **Testing**
-   - Test on Ubuntu 24.10
+   - Test on Ubuntu 25.10
    - Verify all functionality
    - Check for regressions
 

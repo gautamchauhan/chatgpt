@@ -1,10 +1,10 @@
 # ChatGPT Desktop Application - Requirements Document
 
 ## Project Overview
-A lightweight desktop application for Linux (Ubuntu 24.10) that wraps the ChatGPT web interface (chatgpt.com) and provides a native application experience.
+A lightweight desktop application for Linux (Ubuntu 25.10) that wraps the ChatGPT web interface (chatgpt.com) and provides a native application experience.
 
 ## Target Platform
-- **Primary**: Ubuntu 24.10 (Linux)
+- **Primary**: Ubuntu 25.10 (Linux)
 - **Architecture**: x64, ARM64
 - **Package Format**: .deb, AppImage, and/or Snap
 
@@ -227,7 +227,7 @@ chatgpt/
 ## Success Criteria
 1. Application successfully wraps chatgpt.com
 2. Seamless user experience matching native apps
-3. Stable performance on Ubuntu 24.10
+3. Stable performance on Ubuntu 25.10
 4. Easy installation via .deb package
 5. Professional appearance and behavior
 
