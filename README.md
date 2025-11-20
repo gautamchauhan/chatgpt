@@ -20,6 +20,13 @@ A lightweight desktop application for Linux that wraps the ChatGPT web interface
 
 ## Installation
 
+### Download
+
+Get the latest release from the [Releases page](https://github.com/gautamchauhan/chatgpt/releases/latest):
+
+- **[chatgpt-desktop_1.0.0_amd64.deb](https://github.com/gautamchauhan/chatgpt/releases/download/v1.0.0/chatgpt-desktop_1.0.0_amd64.deb)** - Ubuntu/Debian package
+- **[ChatGPT-Desktop-1.0.0.AppImage](https://github.com/gautamchauhan/chatgpt/releases/download/v1.0.0/ChatGPT-Desktop-1.0.0.AppImage)** - Universal Linux package
+
 ### Ubuntu/Debian (.deb package)
 
 ```bash
