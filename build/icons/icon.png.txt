@@ -1,0 +1,2 @@
+# Placeholder for icon
+# For now, we'll generate a simple SVG and convert it to PNG

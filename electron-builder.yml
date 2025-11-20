@@ -1,0 +1,39 @@
+appId: com.chatgpt.desktop
+productName: ChatGPT Desktop
+copyright: Copyright © 2025 Gautam Chauhan
+
+directories:
+  output: dist
+  buildResources: build
+
+files:
+  - src/**/*
+  - node_modules/**/*
+  - package.json
+
+linux:
+  target:
+    - deb
+    - AppImage
+  category: Network
+  icon: build/icons
+  executableName: chatgpt-desktop
+  maintainer: Gautam Chauhan <thisisgautamchauhan@gmail.com>
+  synopsis: ChatGPT Desktop Application
+  description: A desktop application wrapper for ChatGPT
+
+deb:
+  depends:
+    - libgtk-3-0
+    - libnotify4
+    - libnss3
+    - libxss1
+    - libxtst6
+    - xdg-utils
+    - libatspi2.0-0
+    - libdrm2
+    - libgbm1
+    - libxcb-dri3-0
+
+appImage:
+  license: LICENSE

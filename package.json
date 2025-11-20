@@ -1,0 +1,34 @@
+{
+  "name": "chatgpt-desktop",
+  "productName": "ChatGPT Desktop",
+  "version": "1.0.0",
+  "description": "ChatGPT desktop application for Linux",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --linux",
+    "build:deb": "electron-builder --linux deb",
+    "build:appimage": "electron-builder --linux AppImage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gautamchauhan/chatgpt.git"
+  },
+  "keywords": [
+    "chatgpt",
+    "openai",
+    "desktop",
+    "linux",
+    "electron"
+  ],
+  "author": "Gautam Chauhan <thisisgautamchauhan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gautamchauhan/chatgpt/issues"
+  },
+  "homepage": "https://github.com/gautamchauhan/chatgpt#readme",
+  "devDependencies": {
+    "electron": "^39.2.3",
+    "electron-builder": "^26.0.12"
+  }
+}
